@@ -1,0 +1,36 @@
+ *{
+   font-family: "Work Sans",;
+ }
+   /* comon class */
+   .display{
+    display: flex;
+   }
+ #mainheader{
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+ justify-content: space-between;
+ }
+  #mainheader ul {
+    gap: 40px;
+    
+  }
+  #mainheader li{
+    list-style: none;
+  }
+  #mainheader a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .manu{
+    margin-right: 50px;
+  }
+  @media screen and (max-width:576px) {
+    #mainheader{
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+  }
+
+ 
