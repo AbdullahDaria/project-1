@@ -5,6 +5,7 @@
    .display{
     display: flex;
    }
+
  #mainheader{
   max-width: 1200px;
   margin: auto;
@@ -26,11 +27,46 @@
   .manu{
     margin-right: 50px;
   }
+  #banar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .banarcontent h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+
+  }
+    .banarcontent button{
+      padding: 15px 25px;
+      background-color: orange;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      color:white;
+      cursor: pointer;
+    }
+
+
   @media screen and (max-width:576px) {
     #mainheader{
       flex-wrap:wrap;
       justify-content: center;
     }
+    .banarcontent h1{
+      font-size: 37px;
+      margin-bottom: 0;
+    }
+    .banarcontent p{
+      font-size: 7px;
+      margin: 10px;
+     
+    }
+    .banarimg img{
+      width: 100%;
+    }
+
   }
 
  
