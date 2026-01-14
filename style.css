@@ -47,6 +47,37 @@
       color:white;
       cursor: pointer;
     }
+    #secontent{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 30px;
+      align-items: center;
+    }
+    .sectionimg{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+    }
+    .sectioncon h1{
+      color: orange;
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+    .sectioncon{
+      opacity: 0.7;
+    }
+    .sectioncon button{
+      padding: 15px 25px;
+      background-color: orange;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      color:white;
+      cursor: pointer;
+    }
+
+
 
 
   @media screen and (max-width:576px) {
@@ -64,9 +95,20 @@
      
     }
     .banarimg img{
-      width: 100%;
+      width: 90%;
     }
+     #secontent{
+      flex-wrap: wrap;
+     }
 
-  }
+     .sectionimg{
+      grid-template-columns: 1fr;
+
+     }
+     .sectioncon{
+      text-align: center;
+     }
+     }
+     
 
  
